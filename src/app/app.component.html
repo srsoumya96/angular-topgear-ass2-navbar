@@ -1,0 +1,10 @@
+<app-nav-bar (tabNav)="tabNavigated($event);"></app-nav-bar>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <h2 *ngIf="currentTab != ''">You are viewing <span>{{currentTab}}</span></h2>
+      <h2 *ngIf="currentTab == ''">Please Select a menu item</h2>
+    </div>
+  </div>
+
+</div>
