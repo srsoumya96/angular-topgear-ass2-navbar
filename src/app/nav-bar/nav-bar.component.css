@@ -2,7 +2,7 @@ nav {
   background-color: cornflowerblue;
 }
 
-a {
+.btn {
   height: 100%;
   width: 100%;
   margin-right: 250px;
@@ -10,7 +10,7 @@ a {
   color: white;
 }
 
-a:focus, a:hover {
+.btn:focus, .btn:hover {
   background-color: purple;
   color: white;
 }
